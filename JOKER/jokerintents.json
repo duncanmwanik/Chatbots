@@ -1,0 +1,44 @@
+
+
+
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Good morning", "Good afternoon"],
+         "responses": ["What's up! The sun right? Haha.", "Good times buddy! What you up to?", "nothing much, just being a joke, you know "],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "I have to go", "Catch you later", "Tomorrow my friend"],
+         "responses": ["What did the client say to the computer? Goodbye!", "Catch you later then", "Later punk"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "what do you like to be called", "whats your name?", "what do they call you", "have a name?", "nickname?"],
+         "responses": ["I'm the Joker", "My parents called me a joke", "Most people call me a joke!", "A joke! My nickname is Osama though"],
+         "context_set": ""
+        },
+        {"tag": "action",
+         "patterns": ["what can you do", "can you help me", "i need help"],
+         "responses": ["Want a joke? I got you buddy!", "Jokes only. It's a joke nation buddy!", "HElp? We don't do that here"],
+         "context_set": ""
+        },
+        {"tag": "joke",
+         "patterns": ["tell me a joke", "do you know any jokes", "make me laugh"],
+         "responses": ["Here we go! What do you call a cheap circumcision? A rip-off!",
+           "What did one butt cheek say to the other? Together, we can stop this crap.", "What's long and hard and full of semen? A submarine!",
+           "I don't get school shooting jokes. Maybe it's because they're aimed at younger audiences",
+           "Thinkin about a one night stand. Maybe 2, because I have two lamps.",
+           "Dad, why is my sister called Teresa?” “Well son, your mum really really loves Easter, and Teresa is an anagram of Easter” “Thanks Dad” “You're welcome Alan”",
+           "Tom finally decided to tie the knot with his longtime girlfriend. One evening, after the honeymoon, he was cleaning one of his hot rods for an upcoming show. His wife was standing there at the bench watching him. After a long period of silence she finally speaks. ‟Honey, I’ve just been thinking, now that we’re married maybe it is time you quit spending all your time out here in the garage and you probably should just consider selling all your cars. Tom gets this horrified look on his face. She says, ”Darling, what’s wrong?‟ ”There for a minute you were starting to sound like my ex-wife.‟ ”Ex-wife!‟, she screams, ”YOU NEVER TOLD ME YOU WERE MARRIED BEFORE!!!!!!!‟ Tom’s reply: ”I wasn’t‟.",
+           "Do twins ever realize that one of them is unplanned?",
+           "Every time you clean something, you just make something else dirty."
+         ],
+         "context_set": ""
+        },
+        {"tag": "fact",
+         "patterns": ["surprise me", " blow my mind", "tell me something I don't know"],
+         "responses": ["All right! Just give me a second. Just a little bit. Ok. I got nothing!"],
+         "context_set": ""
+        }
+]
+}
